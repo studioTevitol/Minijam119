@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Platform
+=======
+  - Enemy
+>>>>>>> feature/enemy-ai
   layers:
   - Default
   - TransparentFX
@@ -12,8 +16,8 @@ TagManager:
   - Platform
   - Water
   - UI
-  - 
-  - 
+  - Shootable
+  - Player
   - 
   - 
   - 
