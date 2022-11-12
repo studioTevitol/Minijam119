@@ -3,21 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-  - Platform
-=======
-  - Enemy
->>>>>>> feature/enemy-ai
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Platform
+  - 
   - Water
   - UI
-  - Shootable
-  - Player
+  - 
+  - 
   - 
   - 
   - 
