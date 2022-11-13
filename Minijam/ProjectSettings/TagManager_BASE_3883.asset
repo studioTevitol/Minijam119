@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
@@ -46,3 +47,53 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+=======
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+<<<<<<< HEAD
+  - Platform
+=======
+  - Enemy
+>>>>>>> feature/enemy-ai
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Platform
+  - Water
+  - UI
+  - Shootable
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+>>>>>>> 681bc569dac8aa46190aef3f685b213b68470611

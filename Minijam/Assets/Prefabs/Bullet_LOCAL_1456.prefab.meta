@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: c6134c283498ca84f8c25a442bde2862
 PrefabImporter:
@@ -5,3 +6,16 @@ PrefabImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+fileFormatVersion: 2
+<<<<<<< HEAD:Minijam/Assets/Prefabs/Black.prefab.meta
+guid: 4cef06732a54330478d818b85ee89884
+=======
+guid: c6134c283498ca84f8c25a442bde2862
+>>>>>>> 681bc569dac8aa46190aef3f685b213b68470611:Minijam/Assets/Prefabs/Bullet_LOCAL_1456.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> 681bc569dac8aa46190aef3f685b213b68470611

@@ -3,15 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - Enemy
   - Platform
   - Teleporter
+=======
+  tags: []
+>>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Platform
+  - 
   - Water
   - UI
   - Player
