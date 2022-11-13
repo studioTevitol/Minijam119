@@ -44,6 +44,8 @@ GameObject:
   - component: {fileID: 9205656573730797922}
   - component: {fileID: 9205656573730797933}
   - component: {fileID: 9205656573730797932}
+  - component: {fileID: 2048008580}
+  - component: {fileID: 2048008581}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -181,7 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c431d3e72c44bb64aa4a36dab389c101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movePoints: []
+  movePoints:
+  - {fileID: 0}
+  - {fileID: 0}
   speed: 5
   canMoveRight: 0
   isPlayerDetected: 0
@@ -189,8 +193,36 @@ MonoBehaviour:
   haveShoot: 0
   FirePoint: {fileID: 202286299}
   playerObj: {fileID: 0}
-  bulletObj: {fileID: 1201002922904811464, guid: e4f027d4c05e27c43b865a864f9afa97, type: 3}
+  bulletObj: {fileID: 1679071210846497646, guid: c6134c283498ca84f8c25a442bde2862, type: 3}
   fireRate: 5
+--- !u!114 &2048008580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205656573730797931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6baaf659805506d4c96edfe372bc10cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10000
+  target: {fileID: 0}
+  bulletRb: {fileID: 396819246126185866, guid: c6134c283498ca84f8c25a442bde2862, type: 3}
+--- !u!114 &2048008581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205656573730797931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93f986ff88afad478bac77a63752b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &9205656573753046171
 GameObject:
   m_ObjectHideFlags: 0

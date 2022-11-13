@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672976641300041465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.017, y: 0.146, z: -0.022635954}
+  m_LocalPosition: {x: -0.0017, y: -0.0002, z: -0.022635954}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 672976642611908457}
   - component: {fileID: 672976642611908460}
   - component: {fileID: 672976642611908462}
-  - component: {fileID: 672976642611908463}
+  - component: {fileID: 830767325}
   m_Layer: 0
   m_Name: adrien
   m_TagString: Untagged
@@ -310,7 +310,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!61 &672976642611908463
+--- !u!61 &830767325
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,10 +323,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.022377014, y: 0.0021693707}
+  m_Offset: {x: 0.03, y: -0.165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5087977, y: 0.3321122}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -334,5 +334,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18945646, y: 0.6685631}
+  m_Size: {x: 0.184, y: 0.67}
   m_EdgeRadius: 0
