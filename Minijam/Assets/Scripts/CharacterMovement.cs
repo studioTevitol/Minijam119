@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
-    public bool canJump = true;
+    public bool canJump = false;
     public bool canMove = true;
     public float speed;
     public float jumpSpeed;
@@ -32,11 +32,16 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (col.gameObject.CompareTag("Platform"))
+        if (collision.gameObject.CompareTag("Platform"))
         {
             canJump = true;
         } 
+
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Platform")) canJump = false;
     }
 }

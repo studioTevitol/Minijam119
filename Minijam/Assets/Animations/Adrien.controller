@@ -10,11 +10,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 2039355633750607357}
-    m_Position: {x: 235, y: 65, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 190811394888742618}
-    m_Position: {x: 270, y: 130, z: 0}
+    m_Position: {x: 280, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 205920442537223489}
     m_Position: {x: 305, y: 195, z: 0}
@@ -33,16 +30,19 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 6932856502339639154}
     m_Position: {x: 480, y: 520, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1383931157860670797}
+    m_Position: {x: 300, y: 130, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -100, y: 150, z: 0}
-  m_EntryPosition: {x: -100, y: 100, z: 0}
+  m_EntryPosition: {x: -120, y: 70, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 2039355633750607357}
+  m_DefaultState: {fileID: 1383931157860670797}
 --- !u!1102 &-7188071751587428094
 AnimatorState:
   serializedVersion: 6
@@ -221,14 +221,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &2039355633750607357
+--- !u!1102 &1383931157860670797
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: adrien_walk
+  m_Name: adrien_idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -241,7 +241,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b9ea5bb53ba6afc4d8b7cea114306c4b, type: 2}
+  m_Motion: {fileID: 7400000, guid: dcbf6f81915b60d488f0b461cabfd4bd, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
