@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AIPlayerInteraction : MonoBehaviour
 {
@@ -17,5 +18,8 @@ public class AIPlayerInteraction : MonoBehaviour
     public void PlayerDeath()
     {
         Debug.Log("DEATH");
+        Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
 }

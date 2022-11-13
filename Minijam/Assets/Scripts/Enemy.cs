@@ -27,22 +27,7 @@ public class Enemy : MonoBehaviour
 
         return health;
     }
-
-    private void OnCollisionEnter2D(Collision2D collider)
-    {
-        /*Enemy enemy = collider.gameObject.GetComponent<Enemy>();
-        if (enemy != null)
-        {
-            Debug.Log("hit");
-            enemy.TakeDamage(damage);
-        }*/
-        if (collider.gameObject.CompareTag("Bullet"))
-        {
-            Die();
-            Debug.Log("got hit");
-        }
-
-    }
+    
         
     void Die()
     {
