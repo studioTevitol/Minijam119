@@ -21,12 +21,12 @@ public class ArmController : MonoBehaviour
         {
             if (_mouseDirection.x < 0)
             {
-                playerRb.transform.localScale = new Vector3(-8, 8, 0);
+                playerRb.transform.localScale = new Vector3(-4, 4, 0);
                 transform.localScale = new Vector3(-1, -1, 0);
             }
             else
             {
-                playerRb.transform.localScale = new Vector3(8, 8, 0);
+                playerRb.transform.localScale = new Vector3(4, 4, 0);
                 transform.localScale = new Vector3(1, 1, 0);
             }
         }
