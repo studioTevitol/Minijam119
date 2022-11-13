@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   tags:
   - Enemy
   - Platform
@@ -11,11 +12,17 @@ TagManager:
 =======
   tags: []
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+  tags:
+  - Enemy
+  - Platform
+  - Bullet
+>>>>>>> feature/level-sandbox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Platform
   - Water
   - UI
   - Player

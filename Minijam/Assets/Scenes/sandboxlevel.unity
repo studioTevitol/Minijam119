@@ -293,7 +293,7 @@ GameObject:
   - {fileID: 1516646289}
   - {fileID: 1498361667}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &361422551
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
@@ -398,6 +398,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 --- !u!1 &830767317
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
 GameObject:
@@ -615,6 +616,70 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+--- !u!1 &830767317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 672976642611908448, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+  m_PrefabInstance: {fileID: 672976642871660469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1443650149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2659832179962263561, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_Name
+      value: Angel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02699335
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686752057441571126, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eff9b70565e0ec24691e67a1856b7534, type: 3}
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
 --- !u!1 &1498361666
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
 GameObject:
@@ -3274,10 +3339,14 @@ GameObject:
   - component: {fileID: 1511069571}
   - component: {fileID: 1511069570}
   - component: {fileID: 1511069569}
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 <<<<<<< HEAD
   - component: {fileID: 1511069572}
 =======
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+  - component: {fileID: 1511069572}
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3303,7 +3372,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3320,6 +3389,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 <<<<<<< HEAD
   orthographic size: 6.11
   m_Depth: -7.83
@@ -3327,6 +3397,10 @@ Camera:
   orthographic size: 5
   m_Depth: -1
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+  orthographic size: 6.84
+  m_Depth: -7.83
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3349,6 +3423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511069568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 <<<<<<< HEAD
   m_LocalPosition: {x: -8.05, y: 1.49, z: -9.977364}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3454,6 +3529,9 @@ Transform:
 =======
   m_LocalPosition: {x: 0, y: 0, z: -10}
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+  m_LocalPosition: {x: -8.1, y: 9.2300005, z: -9.977364}
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3503,7 +3581,24 @@ BoxCollider2D:
 =======
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+--- !u!114 &1511069572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511069568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9472059cb6a54c046af3bd8bde5f7110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: {x: 0, y: 0, z: 0}
+  playerObj: {fileID: 830767317}
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
 --- !u!1 &1516646288
 GameObject:
   m_ObjectHideFlags: 0
@@ -4044,6 +4139,7 @@ GameObject:
   - component: {fileID: 2056916442}
   - component: {fileID: 2056916441}
   - component: {fileID: 2056916440}
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 <<<<<<< HEAD
   m_Layer: 3
   m_Name: Tilemap
@@ -4053,6 +4149,11 @@ GameObject:
   m_Name: Tilemap
   m_TagString: Untagged
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+  m_Layer: 3
+  m_Name: Tilemap
+  m_TagString: Platform
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4867,6 +4968,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
 <<<<<<< HEAD
 --- !u!1001 &391111387924532191
 PrefabInstance:
@@ -4925,6 +5027,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef6e8c964c57bc4eacb21f623f55eda, type: 3}
+=======
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
 --- !u!1001 &672976642871660469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4938,6 +5042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
@@ -4951,6 +5056,21 @@ PrefabInstance:
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.022635954
+=======
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.022636414
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
       objectReference: {fileID: 0}
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4958,6 +5078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
@@ -4967,6 +5088,17 @@ PrefabInstance:
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+=======
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
       objectReference: {fileID: 0}
     - target: {fileID: 672976642611908461, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4980,6 +5112,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
     - target: {fileID: 672976642611908463, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
       propertyPath: m_Size.x
       value: 0.19266796
@@ -4991,12 +5124,18 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
 --- !u!1001 &4527764312441525879
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a94c556e6d38304596692c9376ca533, type: 3}
+--- !u!1001 &7212208061416548519
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD:Minijam/Assets/Scenes/tilemaps.unity
     - target: {fileID: 4527764313287280802, guid: 22ea3459f93c3ba47aff405e825d2cfe, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5049,3 +5188,55 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 22ea3459f93c3ba47aff405e825d2cfe, type: 3}
 =======
 >>>>>>> 681bc569dac8aa46190aef3f685b213b68470611
+=======
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02699335
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955511709477605724, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674372702646368355, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+      propertyPath: m_Name
+      value: Demon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c16c3571a1cf174ca70dd31fc845c3d, type: 3}
+>>>>>>> feature/level-sandbox:Minijam/Assets/Scenes/sandboxlevel.unity

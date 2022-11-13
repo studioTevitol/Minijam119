@@ -27,7 +27,8 @@ public class Enemy : MonoBehaviour
 
         return health;
     }
-
+    
+        
     void Die()
     {
         Destroy(gameObject);

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,3 +20,26 @@ public class CameraMovement : MonoBehaviour
        transform.position = playerObj.transform.position+distance;
     }
 }
+=======
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraMovement : MonoBehaviour
+{
+    [SerializeField] private Vector3   distance;
+    [SerializeField] private GameObject  playerObj;
+   
+    
+    void Start()
+    {
+        distance= transform.position-playerObj.transform.position;
+    }
+
+   
+    void Update()
+    {
+       transform.position = playerObj.transform.position+distance;
+    }
+}
+>>>>>>> feature/level-sandbox

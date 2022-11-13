@@ -19,15 +19,16 @@ public class Bullet : MonoBehaviour
         StartCoroutine(DeleteBullet());
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        Enemy enemy = col.gameObject.GetComponent<Enemy>();
+        Enemy enemy = collider.gameObject.GetComponent<Enemy>();
         if (enemy != null)
         {
+            Debug.Log("hit");
             enemy.TakeDamage(damage);
+            
         }
         Destroy(gameObject);
-        
     }
 
     IEnumerator DeleteBullet()

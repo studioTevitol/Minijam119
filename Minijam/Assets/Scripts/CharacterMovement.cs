@@ -6,7 +6,11 @@ public class CharacterMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     public bool canJump = false;
+<<<<<<< HEAD
     public bool isInDialogue = true;
+=======
+    public bool canMove = true;
+>>>>>>> feature/level-sandbox
     public float speed;
     public float jumpSpeed;
     public int firstQuestion = 0;
